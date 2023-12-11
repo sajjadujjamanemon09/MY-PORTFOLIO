@@ -1,12 +1,16 @@
 import Container from "../../components/ui/Container";
 import Banner from "./Banner/Banner";
 import MySkills from "./MySkills/MySkills";
+import Statistic from "./Statistic/Statistic";
 
 const Home = () => {
   return (
     <Container>
-		<Banner></Banner>
-		<MySkills></MySkills>
+		<Banner/>
+    <div className="w-full my-20 border-t border-solid border-white"></div>
+    <Statistic/>
+		<MySkills/>
+    <div className="w-full my-20 border-t border-solid border-white"></div>
     </Container>
   );
 };
