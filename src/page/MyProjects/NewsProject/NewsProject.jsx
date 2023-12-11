@@ -85,9 +85,9 @@ const NewsProject = () => {
        <div>
        <h1 className=" text-yellow-300 pt-4 pb-2">Links:</h1>
        <ul className=" pl-5 list-inside flex items-center gap-6 font-semibold text-xl text-gray-200">
-       <li><a href="https://your-project-live-link.com" target="_blank" rel="noopener noreferrer" className="text-blue-500">🔗Project Live Link</a></li>
-        <li><a href="https://your-github-client-link.com" target="_blank" rel="noopener noreferrer" className="text-blue-500">🔗GitHub Client Link</a></li>
-        <li><a href="https://your-server-client-link.com" target="_blank" rel="noopener noreferrer" className="text-blue-500">🔗GitHub Server Link</a></li>
+       <li><a href="https://assignment-12-c8954.web.app" target="_blank" rel="noopener noreferrer" className="text-blue-500">🔗Project Live Link</a></li>
+        <li><a href="https://github.com/sajjadujjamanemon09/News12Paper-clientA12" target="_blank" rel="noopener noreferrer" className="text-blue-500">🔗GitHub Client Link</a></li>
+        <li><a href="https://github.com/sajjadujjamanemon09/News12Paper-serverA12" target="_blank" rel="noopener noreferrer" className="text-blue-500">🔗GitHub Server Link</a></li>
        </ul>
        </div>
       </div>
