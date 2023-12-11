@@ -3,6 +3,9 @@ import App from "../App";
 import ErrorPage from "../page/ErrorPage/ErrorPage";
 import Home from "../page/Home/Home";
 import MyProjects from "../page/MyProjects/MyProjects";
+import NewsProject from "../page/MyProjects/NewsProject/NewsProject";
+import HomeProjects from './../page/MyProjects/HomeProjects/HomeProjects';
+import TechProjects from './../page/MyProjects/TechProjects/TechProjects';
 
 const routes = createBrowserRouter([
   {
@@ -18,10 +21,18 @@ const routes = createBrowserRouter([
         path: 'myProjects',
         element: < MyProjects/>
       },
-      // {
-      //   path: 'signUp',
-      //   element: < />,
-      // },
+      {
+        path: 'newsProject',
+        element: < NewsProject/>,
+      },
+      {
+        path: 'homeProject',
+        element: < HomeProjects/>,
+      },
+      {
+        path: 'techProject',
+        element: < TechProjects/>,
+      },
     ]
   },
   {

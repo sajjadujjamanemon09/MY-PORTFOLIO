@@ -5,7 +5,7 @@ import "react-awesome-slider/dist/styles.css";
 const HomeProjects = () => {
   const AutoplaySlider = withAutoplay(AwesomeSlider);
   return (
-    <div className="pb-10 flex flex-col md:flex-row items-center gap-16">
+    <div className="mx-7 md:mx-20 py-20 flex flex-col-reverse md:flex-row items-center gap-16">
       <div className="md:w-1/2">
         <h1 className=" text-yellow-300">Name:</h1>
         <h2 className="text-4xl font-semibold text-white py-1">HomeSwap Hub</h2>

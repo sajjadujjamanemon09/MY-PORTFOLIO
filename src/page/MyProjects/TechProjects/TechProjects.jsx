@@ -5,7 +5,7 @@ import "react-awesome-slider/dist/styles.css";
 const TechProjects = () => {
   const AutoplaySlider = withAutoplay(AwesomeSlider);
   return (
-    <div className="pb-10 flex flex-col md:flex-row items-center gap-16">
+    <div className="mx-7 md:mx-20 py-16 flex flex-col md:flex-row items-center gap-16">
       <div className="w-full md:w-1/2">
         <AutoplaySlider
           className="rounded-xl overflow-hidden"

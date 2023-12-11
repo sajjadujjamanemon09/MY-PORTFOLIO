@@ -1,7 +1,5 @@
+import AllProjects from "./AllProjects/AllProjects";
 
-import HomeProjects from "./HomeProjects/HomeProjects";
-import NewsProject from "./NewsProject/NewsProject";
-import TechProjects from "./TechProjects/TechProjects";
 
 
 const MyProjects = () => {
@@ -12,11 +10,7 @@ const MyProjects = () => {
            <h1 className="text-gray-200 py-3 text-5xl font-bold">PROJECTS</h1>
            <div className="w-1/3 mx-auto pb-10 border-t border-solid border-white"></div>
            </div>
-            <NewsProject/>
-            <div className="w-full my-20 border-t border-solid border-white"></div>
-            <HomeProjects/>
-            <div className="w-full my-20 border-t border-solid border-white"></div>
-            <TechProjects/>
+         <AllProjects/>
         </div>
     );
 };

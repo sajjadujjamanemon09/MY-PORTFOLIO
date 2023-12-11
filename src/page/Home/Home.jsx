@@ -9,6 +9,7 @@ const Home = () => {
 		<Banner/>
     <div className="w-full my-20 border-t border-solid border-white"></div>
     <Statistic/>
+    <div className="w-full my-20 border-t border-solid border-white"></div>
 		<MySkills/>
     <div className="w-full my-20 border-t border-solid border-white"></div>
     </Container>
