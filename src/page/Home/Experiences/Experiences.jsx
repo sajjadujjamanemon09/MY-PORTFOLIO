@@ -1,5 +1,5 @@
 
-const Statistic = () => {
+const Experiences = () => {
     return (
         <div>
             <div className=" py-24 sm:py-32 my-16">
@@ -7,7 +7,7 @@ const Statistic = () => {
     <div className="mx-auto max-w-2xl lg:max-w-none">
       <div className="text-center space-y-4">
         <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
-        My Professional Hours
+        My Experiences
         </h2>
         <p className="text-lg leading-8 text-gray-300">
           I can help you grow your audience and your business, no matter the
@@ -18,26 +18,26 @@ const Statistic = () => {
 <dl className="mt-16 grid grid-cols-1 gap-0.5 overflow-hidden rounded-2xl text-center sm:grid-cols-2 lg:grid-cols-4">
         <div className="flex flex-col bg-white/5 p-12">
           <dt className="text-sm font-semibold leading-6 text-gray-700">
-            words written in 2023
+            Code written in 2023
           </dt>
           <dd className="order-first text-4xl font-semibold tracking-tight text-black">
-            12 million
+            09 million
           </dd>
         </div>
         <div className="flex flex-col bg-white/5 p-12">
           <dt className="text-sm font-semibold leading-6 text-gray-700">
-            episodes uploaded
+            Website uploaded
           </dt>
           <dd className="order-first text-4xl font-semibold tracking-tight text-black">
-            10k
+            50+
           </dd>
         </div>
         <div className="flex flex-col bg-white/5 p-12">
           <dt className="text-sm font-semibold leading-6 text-gray-700">
-            hours of media
+            working Hour Per Day
           </dt>
           <dd className="order-first text-4xl font-semibold tracking-tight text-black">
-            6.6k
+            8+
           </dd>
         </div>
         <div className="flex flex-col bg-white/5 p-12">
@@ -58,4 +58,4 @@ const Statistic = () => {
     );
 };
 
-export default Statistic;
+export default Experiences;

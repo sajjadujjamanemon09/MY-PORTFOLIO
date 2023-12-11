@@ -1,7 +1,7 @@
 import Container from "../../components/ui/Container";
 import Banner from "./Banner/Banner";
 import MySkills from "./MySkills/MySkills";
-import Statistic from "./Statistic/Statistic";
+import Statistic from "./Experiences/Experiences";
 
 const Home = () => {
   return (
