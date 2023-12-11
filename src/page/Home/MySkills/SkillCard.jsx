@@ -7,7 +7,7 @@ import { DiJavascript } from "react-icons/di";
 
 const SkillCard = () => {
     return (
-        <div className="grid grid-cols-1 md:grid-cols-2">
+        <div className="grid overflow-x-hidden grid-cols-1 md:grid-cols-2">
                        <div className="card w-96 mb-9 glass">
   <div className="card-body">
     <FaReact className="text-7xl text-yellow-500" />

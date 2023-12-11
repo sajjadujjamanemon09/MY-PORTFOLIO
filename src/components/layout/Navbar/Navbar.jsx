@@ -46,7 +46,7 @@ const Navbar = () => {
       </div>
       <div className="navbar-end">
         <button className="btn bg-yellow-300 border-none">
-          <FaDownload></FaDownload>Download Cv
+          <FaDownload></FaDownload>RESUME
         </button>
       </div>
     </div>
