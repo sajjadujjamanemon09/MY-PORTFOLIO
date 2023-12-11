@@ -6,6 +6,7 @@ import MyProjects from "../page/MyProjects/MyProjects";
 import NewsProject from "../page/MyProjects/NewsProject/NewsProject";
 import HomeProjects from './../page/MyProjects/HomeProjects/HomeProjects';
 import TechProjects from './../page/MyProjects/TechProjects/TechProjects';
+import AboutMe from "../page/AboutMe/AboutMe";
 
 const routes = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ const routes = createBrowserRouter([
       {
         path: 'myProjects',
         element: < MyProjects/>
+      },
+      {
+        path: 'aboutMe',
+        element: < AboutMe />
       },
       {
         path: 'newsProject',

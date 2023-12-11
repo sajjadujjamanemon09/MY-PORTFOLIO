@@ -1,6 +1,7 @@
 import { NavLink } from "react-router-dom";
 import { FaDownload } from "react-icons/fa";
 import { LuListMinus } from "react-icons/lu";
+import pdf from '../../../../public/Assignment2.pdf'
 
 const Navbar = () => {
   const navLinks = (
@@ -15,7 +16,7 @@ const Navbar = () => {
         <NavLink to="/ourTeam">Our Team</NavLink>
       </li>
       <li>
-        <NavLink to="/about">About US</NavLink>
+        <NavLink to="/aboutMe">About Me</NavLink>
       </li>
     </>
   );
@@ -45,9 +46,9 @@ const Navbar = () => {
         <ul className="menu text-white menu-horizontal px-1">{navLinks}</ul>
       </div>
       <div className="navbar-end">
-        <button className="btn bg-yellow-300 border-none">
+       <a href={pdf} download='Sajjad Resume.pdf'> <button className="btn bg-yellow-300 border-none">
           <FaDownload></FaDownload>RESUME
-        </button>
+        </button></a>
       </div>
     </div>
   );
