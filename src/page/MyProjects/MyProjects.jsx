@@ -1,6 +1,7 @@
 
 import HomeProjects from "./HomeProjects/HomeProjects";
 import NewsProject from "./NewsProject/NewsProject";
+import TechProjects from "./TechProjects/TechProjects";
 
 
 const MyProjects = () => {
@@ -14,6 +15,8 @@ const MyProjects = () => {
             <NewsProject/>
             <div className="w-full my-20 border-t border-solid border-white"></div>
             <HomeProjects/>
+            <div className="w-full my-20 border-t border-solid border-white"></div>
+            <TechProjects/>
         </div>
     );
 };
