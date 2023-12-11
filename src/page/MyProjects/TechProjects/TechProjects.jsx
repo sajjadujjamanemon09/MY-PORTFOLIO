@@ -13,19 +13,32 @@ const TechProjects = () => {
           cancelOnInteraction={false}
           interval={1000}
         >
-          <div data-src="https://i.ibb.co/TwQQZLw/Screenshot-2023-12-11-183737.png" />
-          <div data-src="https://i.ibb.co/Qb22C3t/Screenshot-2023-12-11-183842.png" />
-          <div data-src="https://i.ibb.co/xHbWgMx/Screenshot-2023-12-11-183919.png" />
-          <div data-src="https://i.ibb.co/7Q7xT29/Screenshot-2023-12-11-183954.png" />
-          <div data-src="https://i.ibb.co/Gxmy4SL/Screenshot-2023-12-11-184017.png" />
-          <div data-src="https://i.ibb.co/0CPsJRb/Screenshot-2023-12-11-184045.png" />
-          <div data-src="https://i.ibb.co/8z0PN9y/Screenshot-2023-12-11-184136.png" />
-          <div data-src="https://i.ibb.co/F5gMPhW/Screenshot-2023-12-11-184202.png" />
-          <div data-src="https://i.ibb.co/G9GCJ4D/Screenshot-2023-12-11-184308.png" />
-          <div data-src="https://i.ibb.co/hZMh5nh/Screenshot-2023-12-11-184350.png" />
-          <div data-src="https://i.ibb.co/XkKNpG9/Screenshot-2023-12-11-184442.png" />
-          <div data-src="https://i.ibb.co/dgk9bdY/Screenshot-2023-12-11-184512.png" />
-          <div data-src="https://i.ibb.co/f81CwD7/Screenshot-2023-12-11-184557.png" />
+          <div data-src="https://i.ibb.co/1nw61jt/Screenshot-2023-12-11-213643.png" />
+          <div
+            data-src="https://i.ibb.co/YfH9j6T/Screenshot-2023-12-11-213819.png
+"
+          />
+          <div
+            data-src="https://i.ibb.co/9T7mY86/Screenshot-2023-12-11-213850.png
+"
+          />
+          <div
+            data-src="https://i.ibb.co/7GNSWQn/Screenshot-2023-12-11-213928.png
+"
+          />
+          <div
+            data-src="https://i.ibb.co/6XKK5ZD/Screenshot-2023-12-11-213959.png
+"
+          />
+          <div
+            data-src="https://i.ibb.co/dB0G6jx/Screenshot-2023-12-11-214029.png
+"
+          />
+          <div
+            data-src="https://i.ibb.co/3vL0tJD/Screenshot-2023-12-11-214054.png
+"
+          />
+          <div data-src="https://i.ibb.co/Kxr9qY4/Screenshot-2023-12-11-214114.png" />
         </AutoplaySlider>
       </div>
       <div className="md:w-1/2">
