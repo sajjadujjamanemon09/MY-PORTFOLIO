@@ -1,5 +1,5 @@
 import { FaDownload } from "react-icons/fa";
-import pdf from '../../../../public/Assignment2.pdf'
+import pdf from '../../../../public/ExampleCV.pdf'
 
 const Banner = () => {
     return (
@@ -19,7 +19,7 @@ const Banner = () => {
               Lets collaborate on crafting digital solutions!
             </p>
             <div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
-            <a href={pdf} download='Sajjad Resume.pdf'> <button className="btn bg-yellow-300 border-none">
+            <a href={pdf} download='Sajjad Example CV.pdf'> <button className="btn bg-yellow-300 border-none">
           <FaDownload></FaDownload>RESUME
         </button></a>
              
