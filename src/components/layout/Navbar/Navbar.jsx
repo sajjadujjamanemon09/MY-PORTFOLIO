@@ -1,7 +1,8 @@
 import { NavLink } from "react-router-dom";
-import { FaDownload } from "react-icons/fa";
+
 import { LuListMinus } from "react-icons/lu";
-import pdf from '../../../../public/Assignment2.pdf'
+import { FaGithub } from "react-icons/fa";
+
 
 const Navbar = () => {
   const navLinks = (
@@ -13,10 +14,10 @@ const Navbar = () => {
         <NavLink to="/myProjects">My Projects</NavLink>
       </li>
       <li>
-        <NavLink to="/ourTeam">Our Team</NavLink>
+        <NavLink to="/contact">Contact With Me</NavLink>
       </li>
       <li>
-        <NavLink to="/aboutMe">About Me</NavLink>
+        <NavLink to="/aboutMe">Who I Am</NavLink>
       </li>
     </>
   );
@@ -46,8 +47,8 @@ const Navbar = () => {
         <ul className="menu text-white menu-horizontal px-1">{navLinks}</ul>
       </div>
       <div className="navbar-end">
-       <a href={pdf} download='Sajjad Resume.pdf'> <button className="btn bg-yellow-300 border-none">
-          <FaDownload></FaDownload>RESUME
+       <a href='https://github.com/sajjadujjamanemon09' > <button className="text-5xl text-white">
+          <FaGithub />
         </button></a>
       </div>
     </div>
