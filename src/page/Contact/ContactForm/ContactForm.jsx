@@ -41,11 +41,11 @@ const ContactForm = () => {
         
   };
     return (
-      <div className="w-1/2">
+      <div className="md:w-1/2">
           <form
         ref={form}
         onSubmit={sendEmail}
-        className="w-1/2  mx-auto mt-20 p-6  border rounded-lg shadow-lg glass"
+        className="md:w-1/2  mx-auto mt-20 p-6  border rounded-lg shadow-lg glass"
       >
         <h2 className="text-3xl font-bold mb-6">Let's Start Conversation</h2>
         <div className="mb-4">
