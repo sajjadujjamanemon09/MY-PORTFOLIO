@@ -4,7 +4,7 @@ import { useTypewriter } from "react-simple-typewriter";
 
 const Banner = () => {
   const [text] = useTypewriter({
-    words: ["Sajjaduj_"],
+    words: ["Sajjaduj"],
     loop: 0,
     typeSpeed: 400,
   });
@@ -16,7 +16,7 @@ const Banner = () => {
           <div className="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
             <h1 className="text-3xl text-white font-semibold">
               Hi, Meet{" "}
-              <span className="text-5xl font-bold text-red-500">{text}</span>
+              <span className="text-5xl font-bold text-red-500">{text}_</span>
             </h1>
             <p className="mt-6 text-slate-300 mb-8 font-thin sm:mb-12">
               I am a Front-End Developer passionate about the MERN stack. With
