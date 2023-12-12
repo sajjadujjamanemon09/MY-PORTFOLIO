@@ -4,7 +4,7 @@ import { useTypewriter } from "react-simple-typewriter";
 
 const AboutMe = () => {
   const [text] = useTypewriter({
-    words: ["am Sajjaduj jaman,"],
+    words: ["am Sajjaduj jaman,_"],
     loop: 0,
     typeSpeed: 400,
   });

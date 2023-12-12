@@ -4,7 +4,7 @@ import { useTypewriter } from "react-simple-typewriter";
 
 const Banner = () => {
   const [text] = useTypewriter({
-    words: ["Sajjaduj"],
+    words: ["Sajjaduj_"],
     loop: 0,
     typeSpeed: 400,
   });

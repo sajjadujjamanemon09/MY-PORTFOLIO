@@ -2,18 +2,18 @@ import { useTypewriter } from "react-simple-typewriter";
 
 const Experiences = () => {
   const [text] = useTypewriter({
-    words: ["9 million"],
+    words: ["9 million_"],
     loop: 0,
     typeSpeed: 400,
   });
   const [text2] = useTypewriter({
-    words: ["0+"],
+    words: ["0+_"],
     loop: 0,
     typeSpeed: 400,
   });
 
   const [text4] = useTypewriter({
-    words: [".1k"],
+    words: [".1k_"],
     loop: 0,
     typeSpeed: 400,
   });
