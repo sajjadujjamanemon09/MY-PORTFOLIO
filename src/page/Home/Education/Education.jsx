@@ -31,8 +31,10 @@ const Education = () => {
         />
       </div>
       <div className="relative grid grid-cols-1 text-center gap-y-12 md:grid-cols-3 gap-x-12">
-        <div>
-          <div className="flex items-center justify-center w-16 h-16 mx-auto bg-yellow-400 border-2 border-gray-200 rounded-full shadow">
+        <div >
+          <div  data-aos="flip-right"
+              data-aos-easing="linear"
+              data-aos-duration="1000" className="flex items-center justify-center w-16 h-16 mx-auto bg-yellow-400 border-2 border-gray-200 rounded-full shadow">
             <span className="text-3xl font-semibold text-gray-800"><RiGraduationCapLine/></span>
           </div>
           <h3 className="mt-6 text-2xl  text-white font-semibold leading-tight md:mt-10">
@@ -45,7 +47,9 @@ const Education = () => {
           </p>
         </div>
         <div>
-          <div className="flex items-center justify-center w-16 h-16 mx-auto bg-yellow-400 border-2 border-gray-200 rounded-full shadow">
+          <div data-aos="flip-left"
+              data-aos-easing="linear"
+              data-aos-duration="1000" className="flex items-center justify-center w-16 h-16 mx-auto bg-yellow-400 border-2 border-gray-200 rounded-full shadow">
             <span className="text-3xl font-semibold text-gray-800"><IoBookOutline/></span>
           </div>
           <h3 className="mt-6 text-2xl text-white font-semibold leading-tight md:mt-10">
@@ -58,7 +62,9 @@ const Education = () => {
           </p>
         </div>
         <div>
-          <div className="flex items-center justify-center w-16 h-16 mx-auto bg-yellow-400 border-2 border-gray-200 rounded-full shadow">
+          <div  data-aos="flip-right"
+              data-aos-easing="linear"
+              data-aos-duration="1000" className="flex items-center justify-center w-16 h-16 mx-auto bg-yellow-400 border-2 border-gray-200 rounded-full shadow">
             <span className="text-3xl  font-semibold text-gray-800"><LuSchool/></span>
           </div>
           <h3 className="mt-6 text-xl text-white font-semibold leading-tight md:mt-10">

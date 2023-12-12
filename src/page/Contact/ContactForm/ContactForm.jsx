@@ -41,7 +41,10 @@ const ContactForm = () => {
         
   };
     return (
-      <div className="md:w-1/2">
+      <div data-aos="fade-zoom-in"
+      data-aos-easing="ease-in-back"
+      data-aos-delay="300"
+      data-aos-offset="0" className="md:w-1/2">
           <form
         ref={form}
         onSubmit={sendEmail}

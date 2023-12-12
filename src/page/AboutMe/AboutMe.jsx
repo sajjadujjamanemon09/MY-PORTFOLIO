@@ -1,10 +1,15 @@
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
+import { useTypewriter } from "react-simple-typewriter";
 
 const AboutMe = () => {
+  const [text] = useTypewriter({
+    words: ["am Sajjaduj jaman,"],
+    loop: 0,
+  });
   return (
     <div>
-         <Helmet>
+      <Helmet>
         <title>Sajjaduj's | About</title>
       </Helmet>
       <h2 className="text-4xl text-center text-gray-100 font-semibold py-6">
@@ -16,26 +21,24 @@ const AboutMe = () => {
           <div>
             <h2 className="text-3xl font-semibold text-black">
               Greetings,
-              <br /> I am Sajjaduj jaman,
+              <br />I {text}
             </h2>
             <div className="container mx-auto py-8">
               <div className="text-lg leading-relaxed mb-14">
-
-
                 <p className="  text-gray-200">
-                  -- My professional journey in the development field spans several
-                  months, where I have made significant strides. Presently, I
-                  hold the position of a Junior Developer, showcasing my
-                  commitment to continuous growth. I have evolved into a Full
-                  Stack Developer, with aspirations to further specialize as a
-                  MERN Stack Developer in the future. My enthusiasm for staying
-                  abreast of emerging technologies reflects my commitment to
-                  ongoing learning. In the realm of front-end development, I
-                  possess proficiency in React, HTML, and JavaScript,
-                  incorporating the latest features and industry best practices.
-                  On the back-end, my expertise extends to MongoDB, Node.js, and
-                  Express, ensuring a comprehensive skill set for full-stack
-                  development.
+                  -- My professional journey in the development field spans
+                  several months, where I have made significant strides.
+                  Presently, I hold the position of a Junior Developer,
+                  showcasing my commitment to continuous growth. I have evolved
+                  into a Full Stack Developer, with aspirations to further
+                  specialize as a MERN Stack Developer in the future. My
+                  enthusiasm for staying abreast of emerging technologies
+                  reflects my commitment to ongoing learning. In the realm of
+                  front-end development, I possess proficiency in React, HTML,
+                  and JavaScript, incorporating the latest features and industry
+                  best practices. On the back-end, my expertise extends to
+                  MongoDB, Node.js, and Express, ensuring a comprehensive skill
+                  set for full-stack development.
                 </p>
 
                 <p className="py-6 text-yellow-600">
@@ -60,10 +63,11 @@ const AboutMe = () => {
                   A dedicated individual with a background rooted in Rangpur
                   city. My academic journey includes the successful completion
                   of my SSC in Pirganj Rangpur, followed by higher studies at
-                  Hazi-Boyen-Uddin Public School. For my HSC I Studied Rural Development Academy
-                  Laboratory School and College in Bogura.. Subsequently,
-                  I pursued my Honors in Business Administration with a focus on
-                  the Accounting department at Rangpur Govt College, Rangpur. 
+                  Hazi-Boyen-Uddin Public School. For my HSC I Studied Rural
+                  Development Academy Laboratory School and College in Bogura..
+                  Subsequently, I pursued my Honors in Business Administration
+                  with a focus on the Accounting department at Rangpur Govt
+                  College, Rangpur.
                 </p>
 
                 <p className="text-gray-200">
@@ -72,13 +76,21 @@ const AboutMe = () => {
                   my skills and knowledge in a meaningful way.
                 </p>
               </div>
-              <Link to='/contact' > <button className="btn bg-yellow-300 border-none">
-          Hire Me
-        </button></Link>
+              <Link to="/contact">
+                {" "}
+                <button className="btn bg-yellow-300 border-none">
+                  Hire Me
+                </button>
+              </Link>
             </div>
           </div>
         </div>
-        <div className="w-1/3 md:pl-16 py-5">
+        <div
+          data-aos-easing="linear"
+          data-aos-duration="1500"
+          data-aos="zoom-in-down"
+          className="w-1/3 md:pl-16 py-5"
+        >
           <img
             className="rounded-full w-80"
             src="https://i.ibb.co/511n9Y2/Untitled-design-5.png"

@@ -6,7 +6,9 @@ import { Link } from "react-router-dom";
 const ProjectNews = () => {
     return (
         <Link to="/newsProject">
-                        <div className="max-w-screen-xl mx-auto p-5 sm:p-10 md:p-16">
+                        <div data-aos="zoom-in-down"
+              data-aos-easing="linear"
+              data-aos-duration="1000" className="max-w-screen-xl mx-auto p-5 sm:p-10 md:p-16">
   <div className="rounded overflow-hidden flex flex-col max-w-xl mx-auto">
     <a href="#">
       <img
