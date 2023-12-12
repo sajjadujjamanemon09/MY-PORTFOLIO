@@ -4,15 +4,18 @@ const Experiences = () => {
   const [text] = useTypewriter({
     words: ["9 million"],
     loop: 0,
+    typeSpeed: 400,
   });
   const [text2] = useTypewriter({
     words: ["0+"],
     loop: 0,
+    typeSpeed: 400,
   });
 
   const [text4] = useTypewriter({
     words: [".1k"],
     loop: 0,
+    typeSpeed: 400,
   });
 
   return (

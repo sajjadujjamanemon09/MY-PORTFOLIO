@@ -6,6 +6,7 @@ const AboutMe = () => {
   const [text] = useTypewriter({
     words: ["am Sajjaduj jaman,"],
     loop: 0,
+    typeSpeed: 400,
   });
   return (
     <div>
@@ -78,9 +79,14 @@ const AboutMe = () => {
               </div>
               <Link to="/contact">
                 {" "}
-                <button className="btn bg-yellow-300 border-none">
-                  Hire Me
-                </button>
+                <div>
+                  <a className="relative inline-flex items-center justify-start px-5 py-2 overflow-hidden font-medium transition-all bg-[#323232] btn border-none hover:bg-white group">
+                    <span className="w-60 h-48 rounded rotate-[-50deg] bg-[#fce626] absolute bottom-0 left-0 -translate-x-full ease-in-out duration-500 transition-all translate-y-full mb-9 ml-9 group-hover:ml-0 group-hover:mb-32 group-hover:translate-x-0" />
+                    <a className="relative w-full text-left text-white transition-colors duration-700 ease-in-out group-hover:text-black font-semibold">
+                      Hire Me
+                    </a>
+                  </a>
+                </div>
               </Link>
             </div>
           </div>

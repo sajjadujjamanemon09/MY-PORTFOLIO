@@ -6,6 +6,7 @@ const Banner = () => {
   const [text] = useTypewriter({
     words: ["Sajjaduj"],
     loop: 0,
+    typeSpeed: 400,
   });
 
   return (
@@ -27,9 +28,14 @@ const Banner = () => {
             <div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
               <a href={pdf} download="Sajjad Example CV.pdf">
                 {" "}
-                <button className="btn bg-yellow-300 border-none">
-                  <FaDownload></FaDownload>RESUME
-                </button>
+                <div>
+                  <a className="relative inline-flex items-center justify-start px-5 py-2 overflow-hidden font-medium transition-all bg-[#323232] btn border-none hover:bg-white group">
+                    <span className="w-60 h-48 rounded rotate-[-50deg] bg-[#fce626] absolute bottom-0 left-0 -translate-x-full ease-in-out duration-500 transition-all translate-y-full mb-9 ml-9 group-hover:ml-0 group-hover:mb-32 group-hover:translate-x-0" />
+                    <a className="relative flex gap-2 font-medium w-full text-left text-white transition-colors duration-700 ease-in-out group-hover:text-black">
+                      <FaDownload></FaDownload>RESUME
+                    </a>
+                  </a>
+                </div>
               </a>
             </div>
           </div>
