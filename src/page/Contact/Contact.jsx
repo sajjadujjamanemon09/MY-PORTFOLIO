@@ -1,9 +1,13 @@
+import { Helmet } from "react-helmet";
 import ContactDetails from "./ContactDetails/ContactDetails";
 import ContactForm from "./ContactForm/ContactForm";
 
 const Contact = () => {
   return (
     <div className="py-5 md:py-24">
+      <Helmet>
+        <title>Sajjaduj's | Contact</title>
+      </Helmet>
       <h2 className="text-5xl text-gray-100 font-bold text-center">
         Reach me at
       </h2>

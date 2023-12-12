@@ -1,11 +1,15 @@
 import AwesomeSlider from "react-awesome-slider";
 import withAutoplay from "react-awesome-slider/dist/autoplay";
 import "react-awesome-slider/dist/styles.css";
+import { Helmet } from "react-helmet";
 
 const HomeProjects = () => {
   const AutoplaySlider = withAutoplay(AwesomeSlider);
   return (
     <div className="mx-7 md:mx-20 py-20 flex flex-col-reverse md:flex-row items-center gap-16">
+       <Helmet>
+        <title>Sajjaduj's | HomeProject</title>
+      </Helmet>
       <div className="md:w-1/2">
         <h1 className=" text-yellow-300">Name:</h1>
         <h2 className="text-4xl font-semibold text-white py-1">HomeSwap Hub</h2>

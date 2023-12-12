@@ -1,11 +1,15 @@
 import AwesomeSlider from "react-awesome-slider";
 import withAutoplay from "react-awesome-slider/dist/autoplay";
 import "react-awesome-slider/dist/styles.css";
+import { Helmet } from "react-helmet";
 
 const TechProjects = () => {
   const AutoplaySlider = withAutoplay(AwesomeSlider);
   return (
     <div className="mx-7 md:mx-20 py-16 flex flex-col md:flex-row items-center gap-16">
+       <Helmet>
+        <title>Sajjaduj's | TechProject</title>
+      </Helmet>
       <div className="w-full md:w-1/2">
         <AutoplaySlider
           className="rounded-xl overflow-hidden"
