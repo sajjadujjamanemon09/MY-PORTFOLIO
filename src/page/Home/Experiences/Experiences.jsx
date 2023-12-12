@@ -1,5 +1,21 @@
+import { useTypewriter } from "react-simple-typewriter";
 
 const Experiences = () => {
+
+  const [text] = useTypewriter({
+    words: ['9 million'],
+    loop: 0
+});
+  const [text2] = useTypewriter({
+    words: ['0+'],
+    loop: 0
+});
+
+  const [text4] = useTypewriter({
+    words: ['.1k'],
+    loop: 0
+});
+
     return (
         <div>
             <div className=" py-24 sm:py-32 my-16">
@@ -21,7 +37,7 @@ const Experiences = () => {
             Code written in 2023
           </dt>
           <dd className="order-first text-4xl font-semibold tracking-tight text-black">
-            09 million
+           0{text}
           </dd>
         </div>
         <div className="flex flex-col bg-white/5 p-12">
@@ -29,7 +45,7 @@ const Experiences = () => {
             Website uploaded
           </dt>
           <dd className="order-first text-4xl font-semibold tracking-tight text-black">
-            50+
+            5{text2}
           </dd>
         </div>
         <div className="flex flex-col bg-white/5 p-12">
@@ -45,7 +61,7 @@ const Experiences = () => {
             answers
           </dt>
           <dd className="order-first text-4xl font-semibold tracking-tight text-black">
-            2.1k
+            2{text4}
           </dd>
         </div>
       </dl>
