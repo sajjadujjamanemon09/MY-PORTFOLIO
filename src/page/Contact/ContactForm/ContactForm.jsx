@@ -95,7 +95,6 @@ const ContactForm = () => {
           className="bg-yellow-400 w-full hover:bg-yellow-500 text-black font-bold py-2  px-4 rounded focus:outline-none focus:shadow-outline"
           type="submit"
           value="Send"
-          onClick={notify}
         >
           Send Message
         </button>
