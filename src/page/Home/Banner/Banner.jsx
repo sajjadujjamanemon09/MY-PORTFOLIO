@@ -1,5 +1,5 @@
 import { FaDownload } from "react-icons/fa";
-import pdf from "../../../../public/ExampleCV.pdf";
+import pdf from "../../../../public/Md Sajjaduj Jaman Resume.pdf";
 import { useTypewriter } from "react-simple-typewriter";
 
 const Banner = () => {
