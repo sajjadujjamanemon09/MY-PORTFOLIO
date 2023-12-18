@@ -1,7 +1,7 @@
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
 import { useTypewriter } from "react-simple-typewriter";
-import banner from "../../assets/BannerImage/Secondary.png";
+
 
 const AboutMe = () => {
   const [text] = useTypewriter({
@@ -100,7 +100,7 @@ const AboutMe = () => {
         >
           <img
             className="rounded-full w-80"
-            src={banner}
+            src='https://iili.io/JA2vBYN.png'
             alt=""
           />
         </div>
