@@ -15,7 +15,7 @@ const ProjectTech = () => {
     <a href="#">
       <img
         className="w-full"
-        src="https://i.ibb.co/59c0PB0/Screenshot-2023-12-11-225035.png"
+        src="https://iili.io/JAfrPCN.png"
         alt="Sunset in the mountains"
       />
     </a>
