@@ -1,5 +1,6 @@
 import { FaDownload } from "react-icons/fa";
 import pdf from "../../../../public/Md Sajjaduj Jamans Resume.pdf";
+import banner from "../../../assets/BannerImage/Main.jpg";
 import { useTypewriter } from "react-simple-typewriter";
 
 const Banner = () => {
@@ -16,7 +17,7 @@ const Banner = () => {
           <div className="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
             <h1 className="text-3xl text-white font-semibold">
               Hi, Meet{" "}
-              <span className="text-5xl font-bold text-red-500">{text}_</span>
+              <span className="text-5xl font-bold text-yellow-500">{text}_</span>
             </h1>
             <p className="mt-6 text-slate-300 mb-8 font-thin sm:mb-12">
               I am a Front-End Developer passionate about the MERN stack. With
@@ -47,7 +48,7 @@ const Banner = () => {
             className="flex items-center justify-center p-6 mt-8 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128"
           >
             <img
-              src="https://i.ibb.co/YtKz5s7/Untitled-design-3.jpg"
+              src={banner}
               alt=""
               className="object-contain rounded-full h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128"
             />

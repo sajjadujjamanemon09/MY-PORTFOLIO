@@ -1,10 +1,11 @@
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
 import { useTypewriter } from "react-simple-typewriter";
+import banner from "../../assets/BannerImage/Secondary.png";
 
 const AboutMe = () => {
   const [text] = useTypewriter({
-    words: ["am Sajjaduj jaman,"],
+    words: ["Sajjaduj Jaman,"],
     loop: 0,
     typeSpeed: 400,
   });
@@ -22,7 +23,7 @@ const AboutMe = () => {
           <div>
             <h2 className="text-3xl font-semibold text-black">
               Greetings,
-              <br />I {text}_
+              <h2>I am <span className="text-yellow-400">{text}_</span></h2>
             </h2>
             <div className="container mx-auto py-8">
               <div className="text-lg leading-relaxed mb-14">
@@ -99,7 +100,7 @@ const AboutMe = () => {
         >
           <img
             className="rounded-full w-80"
-            src="https://i.ibb.co/511n9Y2/Untitled-design-5.png"
+            src={banner}
             alt=""
           />
         </div>

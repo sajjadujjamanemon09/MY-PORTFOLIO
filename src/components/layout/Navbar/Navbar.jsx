@@ -36,11 +36,12 @@ const Navbar = () => {
             {navLinks}
           </ul>
         </div>
-        <img
+        {/* <img
           className="w-52 rounded"
           src="https://i.ibb.co/fQbNs1p/port.png"
           alt=""
-        />
+        /> */}
+        <h2 className="text-5xl font-extrabold text-white">Port<span className="text-yellow-400">Folio</span> </h2>
       </div>
 
       <div className="navbar-center hidden lg:flex">
