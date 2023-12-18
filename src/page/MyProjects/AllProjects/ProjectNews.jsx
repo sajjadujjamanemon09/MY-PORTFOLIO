@@ -13,7 +13,7 @@ const ProjectNews = () => {
     <a href="#">
       <img
         className="w-full"
-        src="https://i.ibb.co/JjQrcQL/Screenshot-2023-12-11-215722.png"
+        src="https://iili.io/JA3oCUF.png"
         alt="Sunset in the mountains"
       />
     </a>

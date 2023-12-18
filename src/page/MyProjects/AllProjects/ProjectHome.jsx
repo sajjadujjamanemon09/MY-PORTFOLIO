@@ -14,7 +14,7 @@ const ProjectHome = () => {
     <a href="#">
       <img
         className="w-full"
-        src="https://i.ibb.co/bW4yFsJ/Screenshot-2023-12-11-224241.png"
+        src="https://iili.io/JAFt4un.png"
         alt="Sunset in the mountains"
       />
     </a>
