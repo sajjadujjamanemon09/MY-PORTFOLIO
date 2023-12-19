@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import AwesomeSlider from "react-awesome-slider";
 import withAutoplay from "react-awesome-slider/dist/autoplay";
 import "react-awesome-slider/dist/styles.css";
@@ -7,7 +8,7 @@ const HomeProjects = () => {
   const AutoplaySlider = withAutoplay(AwesomeSlider);
   return (
     <div className="mx-7 md:mx-20 py-20 flex flex-col-reverse md:flex-row items-center gap-16">
-       <Helmet>
+      <Helmet>
         <title>Sajjaduj's | HomeProject</title>
       </Helmet>
       <div className="md:w-1/2">
@@ -104,43 +105,15 @@ const HomeProjects = () => {
           cancelOnInteraction={false}
           interval={1000}
         >
-          <div
-            data-src="https://i.ibb.co/BLn7pt6/Screenshot-2023-12-11-205330.png
-"
-          />
-          <div
-            data-src="https://i.ibb.co/jHJxGkh/Screenshot-2023-12-11-205903.png
-"
-          />
-          <div
-            data-src="https://i.ibb.co/6mc19W5/Screenshot-2023-12-11-205927.png
-"
-          />
-          <div
-            data-src="https://i.ibb.co/NWzGcbS/Screenshot-2023-12-11-205954.png
-"
-          />
-          <div
-            data-src="https://i.ibb.co/hXb2nXH/Screenshot-2023-12-11-210018.png
-"
-          />
-          <div
-            data-src="https://i.ibb.co/Jk75YG6/Screenshot-2023-12-11-210046.png
-"
-          />
-          <div
-            data-src="https://i.ibb.co/vJNh6fd/Screenshot-2023-12-11-210115.png
-"
-          />
-          <div
-            data-src="https://i.ibb.co/nzrG68R/Screenshot-2023-12-11-210141.png
-"
-          />
-          <div
-            data-src="https://i.ibb.co/7WXpvKd/Screenshot-2023-12-11-210215.png
-"
-          />
-          <div data-src="https://i.ibb.co/SxDrFGK/Screenshot-2023-12-11-210258.png" />
+          <div data-src="https://iili.io/JAFt4un.png" />
+          <div data-src="  https://iili.io/JAoSAil.png" />
+          <div data-src="https://iili.io/JAoScJ9.png" />
+          <div data-src="https://iili.io/JAoS7lS.png" />
+          <div data-src="https://iili.io/JAoSuV4.png" />
+          <div data-src="https://iili.io/JAoSYU7.png"/>
+          <div data-src="https://iili.io/JAoS0Ou.png" />
+          <div data-src="https://iili.io/JAoS1Db.png" />
+          <div data-src="https://iili.io/JAogwwg.png" />
         </AutoplaySlider>
       </div>
     </div>

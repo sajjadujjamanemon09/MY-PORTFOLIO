@@ -7,7 +7,7 @@ const TechProjects = () => {
   const AutoplaySlider = withAutoplay(AwesomeSlider);
   return (
     <div className="mx-7 md:mx-20 py-16 flex flex-col md:flex-row items-center gap-16">
-       <Helmet>
+      <Helmet>
         <title>Sajjaduj's | TechProject</title>
       </Helmet>
       <div className="w-full md:w-1/2">
@@ -17,32 +17,14 @@ const TechProjects = () => {
           cancelOnInteraction={false}
           interval={1000}
         >
-          <div data-src="https://i.ibb.co/1nw61jt/Screenshot-2023-12-11-213643.png" />
-          <div
-            data-src="https://i.ibb.co/YfH9j6T/Screenshot-2023-12-11-213819.png
-"
-          />
-          <div
-            data-src="https://i.ibb.co/9T7mY86/Screenshot-2023-12-11-213850.png
-"
-          />
-          <div
-            data-src="https://i.ibb.co/7GNSWQn/Screenshot-2023-12-11-213928.png
-"
-          />
-          <div
-            data-src="https://i.ibb.co/6XKK5ZD/Screenshot-2023-12-11-213959.png
-"
-          />
-          <div
-            data-src="https://i.ibb.co/dB0G6jx/Screenshot-2023-12-11-214029.png
-"
-          />
-          <div
-            data-src="https://i.ibb.co/3vL0tJD/Screenshot-2023-12-11-214054.png
-"
-          />
-          <div data-src="https://i.ibb.co/Kxr9qY4/Screenshot-2023-12-11-214114.png" />
+          <div data-src="https://iili.io/JAoto5x.png" />
+          <div data-src="https://iili.io/JAotuWP.png" />
+          <div data-src="https://iili.io/JAotq0u.png" />
+          <div data-src="https://iili.io/JAotffe.png" />
+          <div data-src="https://iili.io/JAotnJj.png" />
+          <div data-src="https://iili.io/JAotBUb.png" />
+          <div data-src="https://iili.io/JAotxOQ.png" />
+          <div data-src="https://iili.io/JAotTzB.png" />
         </AutoplaySlider>
       </div>
       <div className="md:w-1/2">

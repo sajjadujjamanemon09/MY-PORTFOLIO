@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import AwesomeSlider from "react-awesome-slider";
 import withAutoplay from "react-awesome-slider/dist/autoplay";
 import "react-awesome-slider/dist/styles.css";
@@ -7,7 +8,7 @@ const NewsProject = () => {
   const AutoplaySlider = withAutoplay(AwesomeSlider);
   return (
     <div className="mx-7 md:mx-20 py-20 flex flex-col md:flex-row items-center gap-16">
-        <Helmet>
+      <Helmet>
         <title>Sajjaduj's | NewsProject</title>
       </Helmet>
       <div className="w-full md:w-1/2">
@@ -17,19 +18,18 @@ const NewsProject = () => {
           cancelOnInteraction={false}
           interval={1000}
         >
-          <div data-src="https://i.ibb.co/TwQQZLw/Screenshot-2023-12-11-183737.png" />
-          <div data-src="https://i.ibb.co/Qb22C3t/Screenshot-2023-12-11-183842.png" />
-          <div data-src="https://i.ibb.co/xHbWgMx/Screenshot-2023-12-11-183919.png" />
-          <div data-src="https://i.ibb.co/7Q7xT29/Screenshot-2023-12-11-183954.png" />
-          <div data-src="https://i.ibb.co/Gxmy4SL/Screenshot-2023-12-11-184017.png" />
-          <div data-src="https://i.ibb.co/0CPsJRb/Screenshot-2023-12-11-184045.png" />
-          <div data-src="https://i.ibb.co/8z0PN9y/Screenshot-2023-12-11-184136.png" />
-          <div data-src="https://i.ibb.co/F5gMPhW/Screenshot-2023-12-11-184202.png" />
-          <div data-src="https://i.ibb.co/G9GCJ4D/Screenshot-2023-12-11-184308.png" />
-          <div data-src="https://i.ibb.co/hZMh5nh/Screenshot-2023-12-11-184350.png" />
-          <div data-src="https://i.ibb.co/XkKNpG9/Screenshot-2023-12-11-184442.png" />
-          <div data-src="https://i.ibb.co/dgk9bdY/Screenshot-2023-12-11-184512.png" />
-          <div data-src="https://i.ibb.co/f81CwD7/Screenshot-2023-12-11-184557.png" />
+          <div data-src="https://iili.io/JA3oCUF.png" />
+          <div data-src="  https://iili.io/JAoOCq7.png" />
+          <div data-src="https://iili.io/JAoOzdu.png" />
+          <div data-src="https://iili.io/JAoOn19.png" />
+          <div data-src="https://iili.io/JAoOI5b.png" />
+          <div data-src="https://iili.io/JAoOoge.png" />
+          <div data-src="https://iili.io/JAoO5XV.png" />
+          <div data-src="https://iili.io/JAoOaqP.png" />
+          <div data-src="https://iili.io/JAoOumx.png" />
+          <div data-src="https://iili.io/JAoO7LB.png" />
+          <div data-src="https://iili.io/JAoOMmv.png" />
+          <div data-src="https://iili.io/JAoOGkJ.png" />
         </AutoplaySlider>
       </div>
       <div className="md:w-1/2">
@@ -69,33 +69,59 @@ const NewsProject = () => {
           </li>
         </ul>
         <h1 className=" text-yellow-300 pt-4 pb-2">Technologies:</h1>
-       <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
-       <ul className="list-disc space-y-1 pl-5 list-inside text-gray-200">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
+          <ul className="list-disc space-y-1 pl-5 list-inside text-gray-200">
             <li>HTML5</li>
             <li>CSS</li>
             <li>ES6</li>
-        </ul>
-       <ul className="list-disc pl-5 list-inside text-gray-200">
+          </ul>
+          <ul className="list-disc pl-5 list-inside text-gray-200">
             <li>React.js</li>
             <li>Node.js</li>
             <li>Express</li>
-        </ul>
-       <ul className="list-disc pl-5 list-inside text-gray-200">
+          </ul>
+          <ul className="list-disc pl-5 list-inside text-gray-200">
             <li>Firebase</li>
             <li>Vercel</li>
             <li>MongoDB</li>
-        </ul>
-       </div>
-       <div>
-       <h1 className=" text-yellow-300 pt-4 pb-2">Links:</h1>
-       <ul className=" pl-5 list-inside flex items-center gap-6 font-semibold text-xl text-gray-200">
-       <li><a href="https://assignment-12-c8954.web.app" target="_blank" rel="noopener noreferrer" className="text-blue-500">🔗Project Live Link</a></li>
-        <li><a href="https://github.com/sajjadujjamanemon09/News12Paper-clientA12" target="_blank" rel="noopener noreferrer" className="text-blue-500">🔗GitHub Client Link</a></li>
-        <li><a href="https://github.com/sajjadujjamanemon09/News12Paper-serverA12" target="_blank" rel="noopener noreferrer" className="text-blue-500">🔗GitHub Server Link</a></li>
-       </ul>
-       </div>
+          </ul>
+        </div>
+        <div>
+          <h1 className=" text-yellow-300 pt-4 pb-2">Links:</h1>
+          <ul className=" pl-5 list-inside flex items-center gap-6 font-semibold text-xl text-gray-200">
+            <li>
+              <a
+                href="https://assignment-12-c8954.web.app"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-500"
+              >
+                🔗Project Live Link
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/sajjadujjamanemon09/News12Paper-clientA12"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-500"
+              >
+                🔗GitHub Client Link
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/sajjadujjamanemon09/News12Paper-serverA12"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-500"
+              >
+                🔗GitHub Server Link
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
-
     </div>
   );
 };
