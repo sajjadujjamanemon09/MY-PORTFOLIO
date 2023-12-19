@@ -26,7 +26,7 @@ const Banner = () => {
               Lets collaborate on crafting digital solutions!
             </p>
             <div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
-              <a href={pdf} download="Sajjaduj Jaman Resume.pdf">
+              <a href={pdf} download="Resume of Sajjaduj Jaman.pdf">
                 {" "}
                 <div>
                   <a className="relative inline-flex items-center justify-start px-5 py-2 overflow-hidden font-medium transition-all bg-[#323232] btn border-none hover:bg-white group">
